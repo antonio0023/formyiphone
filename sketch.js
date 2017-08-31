@@ -1,7 +1,7 @@
 //Si se desea aumentar la velocidad (Default 1)
-var speedUp= 1.3;
+var speedUp= 1.4;
 //Si se desea aumentar la frecuencia de aparicion de las tuberias (Default 100);
-var freq= 67;
+var freq= 70;
 var bird;
 var score=0.00;
 var pipes=[];
