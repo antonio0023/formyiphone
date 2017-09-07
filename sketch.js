@@ -4,7 +4,13 @@ var speedUp= 1.4;
 var freq= 70;
 var bird;
 var score=0.00;
+//Color de fondo en RGB
+
+var R=82;
+var G=142;
+var B=174;
 var pipes=[];
+
 function setup(){
 	createCanvas(400,600);
 	bird= new Bird();
@@ -12,7 +18,8 @@ function setup(){
 
 }
 function draw(){
-	background(82,142,176);
+	//r,g,b
+	background(R,G,B);
 	for (var i = pipes.length - 1; i >= 0; i--) {
 		pipes[i].show();
 		pipes[i].update();
