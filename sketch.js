@@ -4,11 +4,14 @@ var speedUp= 1.4;
 var freq= 70;
 var bird;
 var score=0.00;
-//Color de fondo en RGB
-
-var R=82;
-var G=142;
-var B=174;
+var tiempo= 0; //1 Dia , 0 Noche.
+//121, 194, 239 Dia
+//255, 196, 126 Tarde
+//12, 58, 125 Noche 
+//Color de fondo en RGB 
+var R=12;
+var G=58;
+var B=125;
 var pipes=[];
 
 function setup(){
