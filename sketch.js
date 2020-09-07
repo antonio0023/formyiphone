@@ -72,13 +72,16 @@ function draw(){
 		pipes.push(new Pipe());
 		}
 	}
-		function keyPressed() {
+
+	function keyPressed() {
 		if (key== ' ') {
-			//console.log("Tecla");
 			bird.up();
-		}  
-		
-}
+		}
+	}
+	function mouseClicked(){
+		bird.up();
+	}
+
 function finalScore() {
 	window.alert("Puntuacion final: "+ Math.round(score/100));
 	// text("Puntuacion final: "+ Math.round(score/100))
