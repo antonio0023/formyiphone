@@ -5,9 +5,8 @@
 	this.gravity = 0.6 * speedUp;
 	this.lift = -15 * speedUp;
 	this.velocity = 0* speedUp;
-
 	this.show = function () {
-		fill(255);
+		fill(255, 187, 51);
 		ellipse(this.x, this.y, 25, 25);
 	}
 	this.up= function(){
